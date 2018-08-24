@@ -1,0 +1,4 @@
+F:\Belatrix\Belatrix-logger\Logger\Logger.Model\bin\Debug\Logger.Model.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Model\bin\Debug\Logger.Model.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Model\obj\Debug\Logger.Model.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Model\obj\Debug\Logger.Model.pdb

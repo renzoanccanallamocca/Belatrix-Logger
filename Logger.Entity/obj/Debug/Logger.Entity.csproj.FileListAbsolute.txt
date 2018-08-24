@@ -1,0 +1,4 @@
+F:\Belatrix\Belatrix-logger\Logger\Logger.Entity\bin\Debug\Logger.Entity.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Entity\bin\Debug\Logger.Entity.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Entity\obj\Debug\Logger.Entity.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Entity\obj\Debug\Logger.Entity.pdb

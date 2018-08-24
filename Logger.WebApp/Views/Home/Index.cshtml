@@ -1,0 +1,62 @@
+﻿@model Logger.Model.JobLoggerModel
+
+@{
+    ViewBag.Title = "Logger";
+}
+
+@section scriptbody{
+    <script src="@Url.Content("~/Static/js/utils/ajaxcore.js")?v=@Params.SysVersion"></script>
+    @*<script src="@Url.Content("~/Static/js/utils/main.js")?v=@Params.SysVersion"></script>*@
+    <script src="@Url.Content("~/Static/js/Controllers/Home/Index.js")?v=@Params.SysVersion"></script>
+
+<script>
+        var Home_ns = {};
+        Home_ns.url = {};
+        Home_ns.url.Index = "@Html.GetActionUrl("Index")";
+
+</script>
+}
+
+<div class="jumbotron">
+    <h1>BELATRIX</h1>
+    <p class="lead">Exercise JobLogger</p>
+</div>
+
+<div class="row">
+@using (Html.BeginForm("Index", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @id = "frmLogin" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Message)
+    @Html.HiddenFor(m => m.TypeMessage)
+    @Html.HiddenFor(m => m.Configuration)
+    <div class="col-md-4">
+        <h3>Select configuration</h3>
+        <select id="ddlConfiguracion" name="ddlConfiguracion">
+            <option value="1">File</option>
+            <option value="2">Database</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <h3>Select the type of message:</h3>
+        <select id="ddlTipoMensaje" name="ddlTipoMensaje">
+            <option value="1">Error</option>
+            <option value="2">Warning</option>
+            <option value="3">Message</option>
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Type your message here :</h3>
+        <textarea name="txtMensaje" id="txtMensaje" class="form-control" maxlength="10000" style="width:100%;height:100px; resize:none;"></textarea>
+    </div>
+
+    <div class="col-md-4 col-md-offset-4">
+        <button id="btnSave" name="btnSave" type="submit" class="btn-primary">Save</button>
+    </div>
+
+    <div class="col-md-4 col-md-offset-4">
+        <h3>The anwser is:</h3>
+        <textarea name="txtRespuesta" id="txtRespuesta" class="form-control" maxlength="10000" style="width:100%;height:100px; resize:none;"></textarea>
+    </div>
+}
+</div>

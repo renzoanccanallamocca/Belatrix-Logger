@@ -1,0 +1,4 @@
+F:\Belatrix\Belatrix-logger\Logger\Logger.Config\bin\Debug\Logger.Config.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Config\bin\Debug\Logger.Config.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Config\obj\Debug\Logger.Config.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Config\obj\Debug\Logger.Config.pdb

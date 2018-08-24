@@ -1,0 +1,10 @@
+Errors:
+•	Using SOLID principles can be better.
+•	The code does not high cohesion and low coupling.
+•	Some code in the class are hard.
+•	SQL Sentences into the code, it's better usign store procedures.
+Recommendations :
+•	Separate the code using design patterns.
+•	JobLogger class do different processes, maybe can be separate in diferente class where each one do only a specific task.
+•	Can be better using some pattern design.
+•	Can use repository Pattern to order the code.

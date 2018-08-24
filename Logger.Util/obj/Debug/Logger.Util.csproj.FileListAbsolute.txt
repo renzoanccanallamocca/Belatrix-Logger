@@ -1,0 +1,12 @@
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\Logger.Util.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\Logger.Util.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\AutoMapper.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\Logger.Entity.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\Logger.Model.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\Logger.Entity.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\Logger.Model.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\AutoMapper.pdb
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\bin\Debug\AutoMapper.xml
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\obj\Debug\Logger.Util.csprojResolveAssemblyReference.cache
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\obj\Debug\Logger.Util.dll
+F:\Belatrix\Belatrix-logger\Logger\Logger.Util\obj\Debug\Logger.Util.pdb
