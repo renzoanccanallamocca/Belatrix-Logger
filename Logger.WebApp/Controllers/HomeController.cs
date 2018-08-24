@@ -16,9 +16,6 @@ namespace Logger.WebApp.Controllers
     {
         public ActionResult Index()
         {
-            string dd = DateTime.Now.ToString("yyyyMMdd");
-            string wald = "sd" + dd;
-
             return View();
         }
 
